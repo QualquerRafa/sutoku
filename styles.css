@@ -1,0 +1,49 @@
+/* The font basis for the whole page. Change it locally when needed */
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: whitesmoke;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+body {
+    background-color: rgb(95, 107, 104);
+    margin: 0px;
+    
+    max-height: 2440px;
+}
+
+iframe {
+    border-radius: 12px;
+    position: relative;
+}
+
+.iframe-styling {
+    height: 800px;
+    overflow: hidden;
+    
+    border-radius: 12px;
+}
+
+.rodape {
+    font-size: 22px;
+}
+
+a {
+    font-size: 22px;
+    color: skyblue;
+}
+
+button {
+    background-color: rgb(42,46,45);
+    color: whitesmoke;
+
+    border: 0px;
+    border-radius: 4px;
+
+    width: 64px;
+    height: 32px;
+}
+button:hover {
+    background-color: red;
+}
